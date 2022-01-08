@@ -1,0 +1,25 @@
+th,td,tr{
+    border: 1.5px solid black;
+    font-size: 0.577rem;
+    border-collapse: collapse;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    width: 678px;
+    height: 355px;
+}
+.table-striped>tbody>tr:nth-child(even)>td {
+   background-color: #f8d5da;
+ }
+ .table-striped>tbody>tr:nth-child(odd)>td {
+    background-color: #c3e6cb;
+  }
+thead{
+      background-color: #ccc4ff;
+  }
+.table>tbody>tr>th{
+    background-color: #ccc4ff;
+}
