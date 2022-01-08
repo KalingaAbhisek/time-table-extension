@@ -23,3 +23,7 @@ thead{
 .table>tbody>tr>th{
     background-color: #ccc4ff;
 }
+.form-switch{
+    position: relative;
+    left: 150vh;
+}
